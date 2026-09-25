@@ -2,10 +2,12 @@
   "bad": false,
   "new_version": "1.45.0",
   "new_version_attempt_ts": {
-    "1.44.0": 1785300149
+    "1.44.0": 1785300149,
+    "1.45.0": 1790350964
   },
   "new_version_attempts": {
-    "1.44.0": 4.600000000000002
+    "1.44.0": 4.600000000000002,
+    "1.45.0": 0.19999999999999996
   },
   "new_version_errors": {
     "1.44.0": {
@@ -15,6 +17,14 @@
         "linux_64_: Cannot solve the request because of: No candidates were found for opentelemetry-exporter-otlp-proto-common 1.44.0.*.\n"
       ],
       "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/30422265311'>bot CI job</a>)"
+    },
+    "1.45.0": {
+      "base_branch": "main",
+      "kind": "not-solvable",
+      "messages": [
+        "linux_64_: Cannot solve the request because of: No candidates were found for opentelemetry-exporter-otlp-common 0.66b0.*.\n"
+      ],
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/36154500472'>bot CI job</a>)"
     }
   }
 }
