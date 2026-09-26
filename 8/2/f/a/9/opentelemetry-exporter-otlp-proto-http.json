@@ -3,11 +3,11 @@
   "new_version": "1.45.0",
   "new_version_attempt_ts": {
     "1.44.0": 1785300149,
-    "1.45.0": 1790406148
+    "1.45.0": 1790423694
   },
   "new_version_attempts": {
     "1.44.0": 4.600000000000002,
-    "1.45.0": 0.9999999999999998
+    "1.45.0": 1.1999999999999997
   },
   "new_version_errors": {
     "1.44.0": {
@@ -24,7 +24,7 @@
       "messages": [
         "linux_64_: Cannot solve the request because of: No candidates were found for opentelemetry-exporter-http-transport 0.66b0.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/36223824222'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/36239363716'>bot CI job</a>)"
     }
   }
 }
