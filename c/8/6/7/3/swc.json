@@ -37,7 +37,7 @@
     "78.0.2": 1789348703,
     "80.0.0": 1789809018,
     "80.0.1": 1790499873,
-    "81.0.0": 1790504674
+    "81.0.0": 1790513223
   },
   "new_version_attempts": {
     "68.0.6": 4,
@@ -75,7 +75,7 @@
     "78.0.2": 2,
     "80.0.0": 1,
     "80.0.1": 6,
-    "81.0.0": 1
+    "81.0.0": 2
   },
   "new_version_errors": {
     "68.0.6": {
@@ -364,7 +364,7 @@
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '81.0.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/swc-project/swc/archive/v{{ version }}.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/36310903643"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/36318712880"
     }
   }
 }
