@@ -3,11 +3,11 @@
   "new_version": "1.45.0",
   "new_version_attempt_ts": {
     "1.44.0": 1785312421,
-    "1.45.0": 1790720979
+    "1.45.0": 1790789481
   },
   "new_version_attempts": {
     "1.44.0": 4.600000000000002,
-    "1.45.0": 3.200000000000001
+    "1.45.0": 3.4000000000000012
   },
   "new_version_errors": {
     "1.44.0": {
@@ -24,7 +24,7 @@
       "messages": [
         "linux_64_: Cannot solve the request because of: No candidates were found for opentelemetry-exporter-otlp-proto-grpc 1.45.0.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/36638591756'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/36747644531'>bot CI job</a>)"
     }
   }
 }
