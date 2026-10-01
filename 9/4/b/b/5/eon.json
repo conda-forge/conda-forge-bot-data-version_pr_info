@@ -11,7 +11,7 @@
     "3.2.0": 1787013057,
     "3.3.0": 1790481456,
     "3.3.1": 1790657810,
-    "3.4.0": 1790733552
+    "3.4.0": 1790817696
   },
   "new_version_attempts": {
     "2.15.0": 1,
@@ -23,7 +23,7 @@
     "3.2.0": 4,
     "3.3.0": 7,
     "3.3.1": 4,
-    "3.4.0": 3
+    "3.4.0": 4
   },
   "new_version_errors": {
     "2.15.0": {
@@ -104,7 +104,7 @@
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 271, in run_migration_local\n    migrator.run_post_piggyback_migrations(recipe_dir, feedstock_ctx.attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/core.py\", line 663, in run_post_piggyback_migrations\n    mini_migrator.migrate(recipe_dir, attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/recipe_v1.py\", line 208, in migrate\n    yaml = combine_conditions(yaml)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/recipe_v1.py\", line 189, in combine_conditions\n    node[k] = combine_conditions(v)\n              ^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/recipe_v1.py\", line 177, in combine_conditions\n    fold_branch(node[i], node[i - 1], \"then\", \"then\")\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/recipe_v1.py\", line 129, in fold_branch\n    dest[dest_branch].extend(source_l)\n    ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'CommentedMap' object has no attribute 'extend'\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/36656717597"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/36799135654"
     }
   }
 }
