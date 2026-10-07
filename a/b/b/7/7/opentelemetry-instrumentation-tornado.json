@@ -2,10 +2,10 @@
   "bad": false,
   "new_version": "0.66b1",
   "new_version_attempt_ts": {
-    "0.66b1": 1791345105
+    "0.66b1": 1791358300
   },
   "new_version_attempts": {
-    "0.66b1": 0.5999999999999999
+    "0.66b1": 0.7999999999999998
   },
   "new_version_errors": {
     "0.66b1": {
@@ -14,7 +14,7 @@
       "messages": [
         "linux_64_: Cannot solve the request because of: No candidates were found for opentelemetry-instrumentation 0.66b1.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/37567326104'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/37584463164'>bot CI job</a>)"
     }
   }
 }
