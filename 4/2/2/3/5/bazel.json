@@ -2,10 +2,10 @@
   "bad": false,
   "new_version": "9.3.0",
   "new_version_attempt_ts": {
-    "9.3.0": 1791509527
+    "9.3.0": 1791522306
   },
   "new_version_attempts": {
-    "9.3.0": 2.4000000000000012
+    "9.3.0": 2.6000000000000014
   },
   "new_version_errors": {
     "9.3.0": {
@@ -17,7 +17,7 @@
         "osx_64_: Cannot solve the request because of: No candidates were found for ijar 9.3.0.*.\n",
         "osx_arm64_: Cannot solve the request because of: No candidates were found for ijar 9.3.0.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/37869043633'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/37884942845'>bot CI job</a>)"
     }
   }
 }
