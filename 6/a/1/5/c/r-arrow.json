@@ -3,11 +3,11 @@
   "new_version": "26.0.0",
   "new_version_attempt_ts": {
     "25.0.1": 1791512278,
-    "26.0.0": 1791665198
+    "26.0.0": 1791668145
   },
   "new_version_attempts": {
     "25.0.1": 7.800000000000002,
-    "26.0.0": 2.2
+    "26.0.0": 2.4000000000000004
   },
   "new_version_errors": {
     "25.0.1": {
@@ -31,18 +31,18 @@
       "base_branch": "main",
       "kind": "not-solvable",
       "messages": [
-        "linux_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "linux_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "linux_aarch64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "linux_aarch64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "osx_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "osx_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "osx_arm64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "osx_arm64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
-        "win_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-dataset 26.0.0.*.\n",
-        "win_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-dataset 26.0.0.*.\n"
+        "linux_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "linux_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "linux_aarch64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "linux_aarch64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "osx_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "osx_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "osx_arm64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "osx_arm64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-acero 26.0.0.*.\n",
+        "win_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n",
+        "win_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-compute 26.0.0.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/38084073887'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/38087547181'>bot CI job</a>)"
     }
   }
 }
