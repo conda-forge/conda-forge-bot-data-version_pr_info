@@ -5,13 +5,15 @@
     "10.2.62750": 1791172841,
     "10.2.62780": 1791269125,
     "10.2.62790": 1791379308,
-    "10.2.62810": 1791588363
+    "10.2.62810": 1791588363,
+    "10.2.62820": 1791609288
   },
   "new_version_attempts": {
     "10.2.62750": 5,
     "10.2.62780": 4,
     "10.2.62790": 4,
-    "10.2.62810": 4
+    "10.2.62810": 4,
+    "10.2.62820": 1
   },
   "new_version_errors": {
     "10.2.62750": {
@@ -45,6 +47,14 @@
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '10.2.62810' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/ROCm/rocm-systems/releases/download/rocm-{{ version }}/hip.tar.gz'\n - could not hash URL template 'https://github.com/ROCm/llvm-project/archive/refs/tags/rocm-{{ version }}.tar.gz'\n - could not hash URL template 'https://github.com/ROCm/rocm-systems/releases/download/rocm-{{ version }}/clr.tar.gz'\n\n"
       ],
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/38002189243"
+    },
+    "10.2.62820": {
+      "base_branch": "main",
+      "kind": "bot-error",
+      "messages": [
+        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '10.2.62820' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/ROCm/rocm-systems/releases/download/rocm-{{ version }}/clr.tar.gz'\n - could not hash URL template 'https://github.com/ROCm/rocm-systems/releases/download/rocm-{{ version }}/hip.tar.gz'\n - could not hash URL template 'https://github.com/ROCm/llvm-project/archive/refs/tags/rocm-{{ version }}.tar.gz'\n\n"
+      ],
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/38025993866"
     }
   }
 }
