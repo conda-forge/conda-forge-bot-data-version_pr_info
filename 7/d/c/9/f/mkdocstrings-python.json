@@ -2,10 +2,10 @@
   "bad": false,
   "new_version": "2.0.10",
   "new_version_attempt_ts": {
-    "2.0.10": 1792463141
+    "2.0.10": 1792475712
   },
   "new_version_attempts": {
-    "2.0.10": 0.7999999999999998
+    "2.0.10": 0.9999999999999998
   },
   "new_version_errors": {
     "2.0.10": {
@@ -14,7 +14,7 @@
       "messages": [
         "linux_64_: Cannot solve the request because of: No candidates were found for mkdocstrings >=1.0.8.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/39357906504'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/39376510747'>bot CI job</a>)"
     }
   }
 }
