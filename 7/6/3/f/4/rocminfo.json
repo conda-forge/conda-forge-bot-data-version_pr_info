@@ -18,7 +18,7 @@
     "10.2.62860": 1791979642,
     "10.2.62870": 1792366182,
     "10.2.62920": 1792581032,
-    "10.2.62940": 1792649868
+    "10.2.62940": 1792709113
   },
   "new_version_attempts": {
     "10.2.62620": 1,
@@ -37,7 +37,7 @@
     "10.2.62860": 5,
     "10.2.62870": 8,
     "10.2.62920": 5,
-    "10.2.62940": 3
+    "10.2.62940": 4
   },
   "new_version_errors": {
     "10.2.62620": {
@@ -174,7 +174,7 @@
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '10.2.62940' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/ROCm/rocm-systems/releases/download/rocm-{{ version }}/rocminfo.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/39731777752"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/39865627662"
     }
   }
 }
