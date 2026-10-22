@@ -2,12 +2,10 @@
   "bad": false,
   "new_version": "26.0.0",
   "new_version_attempt_ts": {
-    "25.0.1": 1791512278,
-    "26.0.0": 1792593074
+    "25.0.1": 1791512278
   },
   "new_version_attempts": {
-    "25.0.1": 7.800000000000002,
-    "26.0.0": 5.200000000000003
+    "25.0.1": 7.800000000000002
   },
   "new_version_errors": {
     "25.0.1": {
@@ -26,23 +24,6 @@
         "win_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-acero 25.0.1.*.\n"
       ],
       "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/37872792436'>bot CI job</a>)"
-    },
-    "26.0.0": {
-      "base_branch": "main",
-      "kind": "not-solvable",
-      "messages": [
-        "linux_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "linux_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "linux_aarch64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "linux_aarch64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "osx_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "osx_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "osx_arm64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "osx_arm64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "win_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n",
-        "win_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow 26.0.0.*.\n"
-      ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/39612293827'>bot CI job</a>)"
     }
   }
 }
