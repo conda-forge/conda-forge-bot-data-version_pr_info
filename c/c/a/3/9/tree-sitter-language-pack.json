@@ -5,13 +5,13 @@
     "1.15.11": 1787979981,
     "1.15.9": 1787839116,
     "1.16.0": 1788268187,
-    "1.22.2": 1792697723
+    "1.22.2": 1792721818
   },
   "new_version_attempts": {
     "1.15.11": 2,
     "1.15.9": 4,
     "1.16.0": 3,
-    "1.22.2": 8
+    "1.22.2": 9
   },
   "new_version_errors": {
     "1.15.11": {
@@ -44,7 +44,7 @@
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.22.2' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/xberg-io/tree-sitter-language-pack/releases/download/v{{ version }}/parser-sources-{{ version }}.tar.zst'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/39835510495"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/39884856147"
     }
   }
 }
