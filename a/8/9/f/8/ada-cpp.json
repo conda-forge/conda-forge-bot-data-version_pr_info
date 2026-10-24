@@ -2,10 +2,12 @@
   "bad": false,
   "new_version": "0.34.0",
   "new_version_attempt_ts": {
-    "0.22.0": 1789768155
+    "0.22.0": 1789768155,
+    "0.34.0": 1792826723
   },
   "new_version_attempts": {
-    "0.22.0": 1
+    "0.22.0": 1,
+    "0.34.0": 1
   },
   "new_version_errors": {}
 }
