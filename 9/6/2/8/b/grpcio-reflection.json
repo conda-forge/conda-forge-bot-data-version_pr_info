@@ -3,11 +3,11 @@
   "new_version": "1.84.1",
   "new_version_attempt_ts": {
     "1.84.0": 1792644727,
-    "1.84.1": 1792883099
+    "1.84.1": 1792888454
   },
   "new_version_attempts": {
     "1.84.0": 7.000000000000004,
-    "1.84.1": 2.6000000000000005
+    "1.84.1": 2.8000000000000007
   },
   "new_version_errors": {
     "1.84.0": {
@@ -24,7 +24,7 @@
       "messages": [
         "linux_64_: Cannot solve the request because of: No candidates were found for grpcio 1.84.1.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/40140076138'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/40146561401'>bot CI job</a>)"
     }
   }
 }
