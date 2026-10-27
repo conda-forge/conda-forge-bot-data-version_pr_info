@@ -1,7 +1,11 @@
 {
   "bad": false,
   "new_version": "2.47",
-  "new_version_attempt_ts": {},
-  "new_version_attempts": {},
+  "new_version_attempt_ts": {
+    "2.47": 1793135871
+  },
+  "new_version_attempts": {
+    "2.47": 1
+  },
   "new_version_errors": {}
 }
