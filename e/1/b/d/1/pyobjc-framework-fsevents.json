@@ -3,11 +3,13 @@
   "new_version": "13.0",
   "new_version_attempt_ts": {
     "12.2": 1781845183,
-    "12.2.2": 1786662270
+    "12.2.2": 1786662270,
+    "13.0": 1793370587
   },
   "new_version_attempts": {
     "12.2": 3.6000000000000014,
-    "12.2.2": 0.5999999999999999
+    "12.2.2": 0.5999999999999999,
+    "13.0": 0.19999999999999996
   },
   "new_version_errors": {
     "12.2": {
@@ -47,6 +49,25 @@
         "osx_arm64_python3.14.____cp314t: Cannot solve the request because of: No candidates were found for pyobjc-core 12.2.2.*.\n"
       ],
       "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/31751392435'>bot CI job</a>)"
+    },
+    "13.0": {
+      "base_branch": "main",
+      "kind": "not-solvable",
+      "messages": [
+        "osx_64_python3.11.____cpython: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_64_python3.12.____cpython: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_64_python3.13.____cp313: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_64_python3.14.____cp314: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_64_python3.14.____cp314t: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_64_python3.15.____cp315: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_arm64_python3.11.____cpython: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_arm64_python3.12.____cpython: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_arm64_python3.13.____cp313: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_arm64_python3.14.____cp314: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_arm64_python3.14.____cp314t: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n",
+        "osx_arm64_python3.15.____cp315: Cannot solve the request because of: No candidates were found for pyobjc-framework-cocoa 13.0.*.\n"
+      ],
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/41061611672'>bot CI job</a>)"
     }
   }
 }
