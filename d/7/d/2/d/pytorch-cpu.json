@@ -445,7 +445,7 @@
     "201969": 1792910460,
     "202109": 1793076495,
     "202467": 1793269526,
-    "202855": 1793428787,
+    "202855": 1793459520,
     "32575604cf23f171d0d5973ee7962e12701fd887": 1791872429,
     "34d2dee4468c6041d1657e5f510e8e3c5ef29f6f": 1785423862,
     "353c6d9c94e4f82185ec37e4532f1085d889ff": 1784181041
@@ -894,7 +894,7 @@
     "201969": 2,
     "202109": 1,
     "202467": 2,
-    "202855": 2,
+    "202855": 3,
     "32575604cf23f171d0d5973ee7962e12701fd887": 2,
     "34d2dee4468c6041d1657e5f510e8e3c5ef29f6f": 2,
     "353c6d9c94e4f82185ec37e4532f1085d889ff": 1
@@ -4450,7 +4450,7 @@
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n        migrator=migrator,\n    ...<4 lines>...\n        **kwargs,\n    )\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ~~~~~~~~~~~~~~~~^\n        recipe_dir, feedstock_ctx.attrs, **kwargs\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\n    ...<4 lines>...\n    )\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '202855' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://download.pytorch.org/source_code/test/pytorch-v{{ version }}.tar.gz'\n - could not hash URL template 'https://github.com/pytorch/pytorch/releases/download/v{{ version }}/pytorch-v{{ version }}.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/41176069187"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/41212434860"
     },
     "32575604cf23f171d0d5973ee7962e12701fd887": {
       "base_branch": "main",
