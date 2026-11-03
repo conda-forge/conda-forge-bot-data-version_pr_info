@@ -3,11 +3,11 @@
   "new_version": "26.0.1",
   "new_version_attempt_ts": {
     "25.0.1": 1792972021,
-    "26.0.1": 1793715916
+    "26.0.1": 1793726983
   },
   "new_version_attempts": {
     "25.0.1": 8.0,
-    "26.0.1": 0.19999999999999996
+    "26.0.1": 0.3999999999999999
   },
   "new_version_errors": {
     "25.0.1": {
@@ -42,7 +42,7 @@
         "win_64_r_base4.4: Cannot solve the request because of: No candidates were found for libarrow-dataset 26.0.1.*.\n",
         "win_64_r_base4.5: Cannot solve the request because of: No candidates were found for libarrow-dataset 26.0.1.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/41647397886'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/41677717824'>bot CI job</a>)"
     }
   }
 }
