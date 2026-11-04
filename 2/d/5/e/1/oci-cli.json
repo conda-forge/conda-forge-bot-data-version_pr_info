@@ -21,7 +21,7 @@
     "3.94.2": 1791793810,
     "3.95.0": 1792460487,
     "3.95.1": 1793490393,
-    "3.96.0": 1793802024
+    "3.96.0": 1793819335
   },
   "new_version_attempts": {
     "3.86.0": 2.4000000000000004,
@@ -43,7 +43,7 @@
     "3.94.2": 4.200000000000002,
     "3.95.0": 3.8000000000000016,
     "3.95.1": 5.200000000000003,
-    "3.96.0": 1.1999999999999997
+    "3.96.0": 1.3999999999999997
   },
   "new_version_errors": {
     "3.86.0": {
@@ -204,7 +204,7 @@
       "messages": [
         "linux_64_: Cannot solve the request because of: No candidates were found for oci 2.190.0.*.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/41842685057'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/41890484432'>bot CI job</a>)"
     }
   }
 }
