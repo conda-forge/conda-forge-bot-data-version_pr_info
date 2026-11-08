@@ -474,6 +474,7 @@
     "202855": 1793459520,
     "203135": 1793682004,
     "203299": 1793775014,
+    "203764": 1794114808,
     "203883": 1794016618,
     "203884": 1794018587,
     "32575604cf23f171d0d5973ee7962e12701fd887": 1791872429,
@@ -953,6 +954,7 @@
     "202855": 3,
     "203135": 1,
     "203299": 2,
+    "203764": 1,
     "203883": 1,
     "203884": 1,
     "32575604cf23f171d0d5973ee7962e12701fd887": 2,
@@ -4735,6 +4737,14 @@
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n        migrator=migrator,\n    ...<4 lines>...\n        **kwargs,\n    )\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ~~~~~~~~~~~~~~~~^\n        recipe_dir, feedstock_ctx.attrs, **kwargs\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\n    ...<4 lines>...\n    )\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '203299' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://download.pytorch.org/source_code/test/pytorch-v{{ version }}.tar.gz'\n - could not hash URL template 'https://github.com/pytorch/pytorch/releases/download/v{{ version }}/pytorch-v{{ version }}.tar.gz'\n\n"
       ],
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/41783764678"
+    },
+    "203764": {
+      "base_branch": "main",
+      "kind": "bot-error",
+      "messages": [
+        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n        migrator=migrator,\n    ...<4 lines>...\n        **kwargs,\n    )\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ~~~~~~~~~~~~~~~~^\n        recipe_dir, feedstock_ctx.attrs, **kwargs\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\n    ...<4 lines>...\n    )\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '203764' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://download.pytorch.org/source_code/test/pytorch-v{{ version }}.tar.gz'\n - could not hash URL template 'https://github.com/pytorch/pytorch/releases/download/v{{ version }}/pytorch-v{{ version }}.tar.gz'\n\n"
+      ],
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/42449153517"
     },
     "203883": {
       "base_branch": "main",
