@@ -3,11 +3,11 @@
   "new_version": "5.0.2",
   "new_version_attempt_ts": {
     "5.0.1": 1794305744,
-    "5.0.2": 1794593187
+    "5.0.2": 1794606397
   },
   "new_version_attempts": {
     "5.0.1": 5.600000000000003,
-    "5.0.2": 0.5999999999999999
+    "5.0.2": 0.7999999999999998
   },
   "new_version_errors": {
     "5.0.1": {
@@ -24,7 +24,7 @@
       "messages": [
         "linux_64_: Cannot solve the request because of: No candidates were found for python >=3.11,<3.11.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/43474673247'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/43507545788'>bot CI job</a>)"
     }
   }
 }
