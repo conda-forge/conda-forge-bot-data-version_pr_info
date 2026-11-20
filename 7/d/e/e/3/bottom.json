@@ -12,7 +12,7 @@
     "4023340c-1784361754": 1784714980,
     "5eed8c-1784940869": 1785029944,
     "6934fe1c-1785027550": 1785385913,
-    "6e1c1385-1794962262": 1795106442,
+    "6e1c1385-1794962262": 1795174935,
     "7682f9d6-1767660412": 1784279277,
     "7916c918-1781918260": 1781945885,
     "7c472015-1788224772": 1788460864,
@@ -33,7 +33,7 @@
     "4023340c-1784361754": 6,
     "5eed8c-1784940869": 2,
     "6934fe1c-1785027550": 6,
-    "6e1c1385-1794962262": 3,
+    "6e1c1385-1794962262": 4,
     "7682f9d6-1767660412": 18,
     "7916c918-1781918260": 2,
     "7c472015-1788224772": 3,
@@ -130,7 +130,7 @@
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n        migrator=migrator,\n    ...<4 lines>...\n        **kwargs,\n    )\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 265, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ~~~~~~~~~~~~~~~~^\n        recipe_dir, feedstock_ctx.attrs, **kwargs\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 301, in migrate\n    raise VersionMigrationError(\n    ...<4 lines>...\n    )\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '6e1c1385-1794962262' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/ClementTsang/bottom/archive/{{ version }}.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/44551342769"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/44719096293"
     },
     "7682f9d6-1767660412": {
       "base_branch": "main",
