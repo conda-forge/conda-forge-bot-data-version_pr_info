@@ -4,12 +4,12 @@
   "new_version_attempt_ts": {
     "9.3.0": 1792400880,
     "9.3.2": 1794970333,
-    "9.3.3": 1795440960
+    "9.3.3": 1795482069
   },
   "new_version_attempts": {
     "9.3.0": 6.800000000000004,
     "9.3.2": 5.200000000000002,
-    "9.3.3": 2.4000000000000004
+    "9.3.3": 2.6000000000000005
   },
   "new_version_errors": {
     "9.3.0": {
@@ -43,7 +43,7 @@
         "osx_64_: Cannot solve the request because of: The following packages are incompatible\n├─ libgrpc 1.82.* cannot be installed because there are no viable options:\n│  └─ libgrpc 1.82.0 | 1.82.1 | 1.82.2 | 1.82.3 would require\n│     └─ libabseil >=20260526.0,<20260527.0a0, which cannot be installed because there are no viable options:\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        └─ libabseil 20260526.0, which conflicts with the versions reported above.\n└─ singlejar 9.3.3.* cannot be installed because there are no viable options:\n   └─ singlejar 9.3.3 would require\n      └─ libabseil >=20260817.0,<20260818.0a0, which cannot be installed because there are no viable options:\n         ├─ libabseil 20260817.0, which conflicts with the versions reported above.\n         ├─ libabseil 20260817.0, which conflicts with the versions reported above.\n         └─ libabseil 20260817.0, which conflicts with the versions reported above.\n",
         "osx_arm64_: Cannot solve the request because of: The following packages are incompatible\n├─ libgrpc 1.82.* cannot be installed because there are no viable options:\n│  └─ libgrpc 1.82.0 | 1.82.1 | 1.82.2 | 1.82.3 would require\n│     └─ libabseil >=20260526.0,<20260527.0a0, which cannot be installed because there are no viable options:\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        ├─ libabseil 20260526.0, which conflicts with the versions reported above.\n│        └─ libabseil 20260526.0, which conflicts with the versions reported above.\n└─ singlejar 9.3.3.* cannot be installed because there are no viable options:\n   └─ singlejar 9.3.3 would require\n      └─ libabseil >=20260817.0,<20260818.0a0, which cannot be installed because there are no viable options:\n         ├─ libabseil 20260817.0, which conflicts with the versions reported above.\n         ├─ libabseil 20260817.0, which conflicts with the versions reported above.\n         └─ libabseil 20260817.0, which conflicts with the versions reported above.\n"
       ],
-      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/45177727412'>bot CI job</a>)"
+      "url": "(<a href='https://github.com/conda-forge/conda-forge-bot/actions/runs/45297453371'>bot CI job</a>)"
     }
   }
 }
